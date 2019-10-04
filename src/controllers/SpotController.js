@@ -1,0 +1,1 @@
+const Spot = require('../models/Spot')
