@@ -4,6 +4,7 @@ const SpotController = require('./controllers/SpotController')
 const multer = require('multer');
 const ConfigUpload = require('./config/upload');
 
+
 const upload = multer(ConfigUpload)
 const routes = express.Router();
 routes.get('/', (req, res) => {
